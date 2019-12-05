@@ -1,5 +1,4 @@
 import Document, {Html, Head, Main, NextScript, DocumentContext} from 'next/document'
-import {LoginState} from '../stateproviders/LoginState'
 
 class AppDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {
